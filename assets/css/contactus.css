@@ -1,0 +1,282 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --themeColor: #E83F53;
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --textColor: #989898;
+    --navColor: #242625;
+    font-size: 10px;
+    --headingFont: 'Oswald', sans-serif;
+    --paragraphFont: 'Source Sans Pro', sans-serif;
+}
+
+html,
+body {
+    font-size: 1.6rem;
+}
+
+a,
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    background-color: var(--themeColor);
+    padding: 1.5rem 3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--whiteColor);
+    text-transform: uppercase;
+}
+
+.title_div h2 {
+    padding: 1rem 0rem;
+}
+
+.button:hover {
+    border-color: var(--themeColor);
+    color: var(--themeColor);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--headingFont);
+}
+
+p,
+span {
+    font-style: var(--paragraphFont);
+}
+
+p {
+    font-size: 1.6rem;
+    color: var(--textColor);
+}
+
+span {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--themeColor);
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    max-width: 128rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* navbar */
+nav .logo img {
+    width: 10rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+.navbar_items .nav-item {
+    padding: 1rem;
+}
+
+.navbar_items .nav-item a {
+    color: var(--whiteColor);
+    font-weight: 600;
+}
+
+.navbar__wrapper {
+    background-color: var(--navColor);
+    width: 100%;
+}
+
+.navbar_items .nav-item a:hover {
+    color: var(--themeColor);
+}
+
+/* breadcrum */
+.breadcrumb__wrapper {
+    margin: 9rem 0;
+    text-align: center;
+}
+
+.breadcrumb__wrapper h2 {
+    color: var(--themeColor)
+}
+
+.breadcrumb__wrapper a {
+    color: var(--blackColor);
+}
+
+.breadcrumb__wrapper a:hover {
+    color: var(--themeColor);
+}
+
+/* contactus */
+.sidebar {
+    padding: 0 2rem;
+    border-radius: .5rem;
+}
+
+.sidebar__image h3 {
+    margin: 2rem 0;
+}
+
+.sidebar__image p {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+.sidebar__contact h3 {
+    margin: 2rem 0;
+}
+
+.sidebar__contact a {
+    color: var(--themeColor);
+}
+
+.sidebar__contact {
+    margin-bottom: 2rem;
+}
+
+.sidebar__contact ul li {
+    padding: .5rem 0;
+}
+
+.contactus__wrapper h2 {
+    text-align: center;
+    padding-bottom: 4.5rem;
+}
+
+.contact__form {
+    margin: 0 auto;
+    border-radius: .5rem;
+    margin-bottom: 9rem;
+    padding: 1rem;
+    max-width: 80rem;
+    background-color: #fcfcfc;
+}
+.contact__form label {
+    font-weight: 600;
+}
+
+.contact__form label,
+input[type="text"],
+input[type="email"],
+.textarea {
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.contact__form input[type="text"],
+input[type="email"],
+.textarea {
+    border: .1rem solid rgb(239, 239, 239);
+}
+
+
+.contact__form .button {
+    padding: 1rem 3rem;
+}
+
+.google__map iframe {
+    width: 100%;
+    height: 40rem;
+}
+
+/* footer */
+.footer__top {
+    background-color: #242625;
+    padding: 7rem 0;
+}
+
+.footer__top figure img {
+    height: 5rem;
+    width: 10rem;
+}
+
+.footer__top p {
+    padding-top: 2rem;
+}
+
+.footer__top h3 {
+    color: var(--whiteColor);
+}
+
+.footer_links {
+    padding: 1.5rem;
+}
+
+.footer_links h3 {
+    padding-bottom: 1.8rem;
+}
+
+.footer_links ul li {
+    color: var(--textColor);
+    line-height: 2;
+}
+
+.footer_links ul li a {
+    color: var(--textColor);
+}
+
+.footer_links ul li a:hover {
+    color: var(--themeColor);
+}
+
+.footer__bottom {
+    padding: 2rem;
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+}
+
+.footer__bottom .social__media {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.footer__bottom .social__media a {
+    color: var(--whiteColor);
+}
+
+.footer__bottom .social__media a:hover {
+    color: var(--themeColor);
+    cursor: pointer;
+}
